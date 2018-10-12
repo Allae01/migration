@@ -46,9 +46,9 @@
 <profiles>
       <profiles>
     <profile>
-      <id>TEST</id>
+      <id>test</id>
       <properties>
-        <environnement>foobar</environnement>
+        <environnement>foobar1</environnement>
       </properties>
     </profile>
   </profiles>
