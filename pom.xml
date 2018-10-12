@@ -44,18 +44,19 @@
     </build>
 
 <profiles>
-      <profiles>
-    <profile>
-      <id>test</id>
-      <properties>
-        <environnement>foobar1</environnement>
-      </properties>
-    </profile>
+      
+	    <profile>
+	      <id>test</id>
+	      <properties>
+		<environnement>foobar1</environnement>
+	      </properties>
+	    </profile>
+
+		<profile>
+		      <id>DEV</id>
+		      <properties>
+			<environnement>foobar</environnement>
+		      </properties>
+		    </profile>
   </profiles>
-<profile>
-      <id>DEV</id>
-      <properties>
-        <environnement>foobar</environnement>
-      </properties>
-    </profile>
 </project>
